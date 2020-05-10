@@ -5,7 +5,7 @@ import logo from './logo.svg';
 function Navbar(){
     return(
         <div>
-            <ul className="navbar">
+            <ul className="navbar" id="Navbar">
                 <img src={logo} className="Navbar-logo" alt="logo" />
                 <li>Home</li>
                 <li>About </li>

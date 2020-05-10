@@ -9,9 +9,9 @@
     margin: 0px;
     padding: 16px 0;
 }
-.navbar::parent{
+/* .navbar::parent{
     background-color: rgb(183, 5, 199);
-}
+} */
 .Navbar-logo {
     height: 40px;
     pointer-events: none;
@@ -30,4 +30,8 @@
     to {
       transform: rotate(360deg);
     }
+  }
+
+  #Navbar{
+      background-color: blueviolet;
   }
