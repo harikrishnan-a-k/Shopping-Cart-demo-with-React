@@ -3,14 +3,14 @@
     flex-direction: row;
     justify-content: space-around;
     list-style-type: none;
-    background-color: blueviolet;
+    background-color: rgb(183, 5, 199);
     color: white;
     height:inherit;
     margin: 0px;
     padding: 16px 0;
 }
 .navbar::parent{
-    background-color: blueviolet;
+    background-color: rgb(183, 5, 199);
 }
 .Navbar-logo {
     height: 40px;
