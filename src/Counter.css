@@ -1,0 +1,12 @@
+.counter{
+    /* display: flex; */
+    /* flex-direction: row-reverse; */
+    color:white;
+    /*  float: right !important; */
+    /* position: absolute;
+    right: 0px; */
+    /* top:20vh; */
+    border: 3px solid whitesmoke;
+    margin: 5px;
+    
+}

@@ -1,0 +1,33 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: blueviolet;
+    color: white;
+    height:inherit;
+    margin: 0px;
+    padding: 16px 0;
+}
+.navbar::parent{
+    background-color: blueviolet;
+}
+.Navbar-logo {
+    height: 40px;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .Navbar-logo {
+      animation: App-logo-spin infinite 10s linear;
+    }
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
